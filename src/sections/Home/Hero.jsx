@@ -17,7 +17,9 @@ const Hero = () => {
           Leverage Advanced AI-Driven Signals And Seamless Automation For Superior Trading Performance.
         </p>
         <div className="flex md:flex-row flex-col">
+          <a href="https://app.enzyme.finance/vault/0x857c34d7bc5aef93dc05367af9136932195efa42/my-deposit?network=polygon">
           <button className="btn1 shadow-xl">Get Started</button>
+          </a>
           <button className="btn2 shadow-xl">Watch Demo</button>
         </div>
       </div>

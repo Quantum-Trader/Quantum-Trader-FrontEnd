@@ -19,7 +19,9 @@ const Navbar = ({ show, setShow }) => {
           How it works
         </p>
         <p className="font-bold xl:text-xl xl:px-0 py-5">Twitter</p>
+        <a href="https://app.enzyme.finance/vault/0x857c34d7bc5aef93dc05367af9136932195efa42/my-deposit?network=polygon">
         <button className="shadow-xl">Get Started</button>
+        </a>
       </div>
       <div
         className="xl:hidden flex justify-end cursor-pointer"
