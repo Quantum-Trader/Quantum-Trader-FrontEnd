@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    background-color: #0A003F;
+  }
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./assets/AeonikTRIAL-Bold.otf') format('otf'),
+         url('./assets/AeonikTRIAL-BoldItalic.otf') format('otf'),
+         url('./assets/AeonikTRIAL-Light.otf') format('otf'),
+         url('./assets/AeonikTRIAL-LightItalic.otf') format('otf'),
+         url('./assets/AeonikTRIAL-Regular.otf') format('otf'),
+         url('./assets/AeonikTRIAL-RegularItalic.otf') format('otf');
+    /* Add additional font formats if necessary */
+    /* Specify the correct path to the font files */
+  }
+
+  .body {
+    font-family: 'CustomFont', sans-serif;
+  }
+
+  .bg-hsla-250-75-3 {
+    background-color: hsla(250, 75%, 3%, 1);
+}
+
+.blue-bg {
+  background: hsla(223, 88%, 56%, 1);
+}
+
+.gradient-bg-welcome {
+  background-color: hsla(250, 75%, 3%, 1);
+  background-image: radial-gradient(at 0 0, hsla(250, 75%, 3%, 1) 0, transparent 50%), radial-gradient(at 50% 0, #09050ecc 0, transparent 50%), radial-gradient(at 100% 0, #25153c 0, transparent 50%);
+}
+.green-pink-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+.shadow-card, .shadow-md {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.bg-tertiary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 16 48 / var(--tw-bg-opacity));
+}
+
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.19);
+  
+}
