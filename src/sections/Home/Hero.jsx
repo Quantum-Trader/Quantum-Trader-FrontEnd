@@ -20,7 +20,9 @@ const Hero = () => {
           <a href="https://app.enzyme.finance/vault/0x857c34d7bc5aef93dc05367af9136932195efa42/my-deposit?network=polygon">
           <button className="btn1 shadow-xl">Get Started</button>
           </a>
+          <a href="https://www.youtube.com/watch?si=-s7DnCEDRooMe2Ce&v=JJHoVg3ofOw&feature=youtu.be">
           <button className="btn2 shadow-xl">Watch Demo</button>
+          </a>
         </div>
       </div>
     </Main>
